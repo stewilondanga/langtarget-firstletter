@@ -55,14 +55,14 @@ nav ul li a {
   text-decoration: none;
 }
 
-/*nav ul li a:focus,
+nav ul li a:focus,
 nav ul li a:hover {
   outline: 3px solid var(--white);
   color: var(--white);
   transition: .3s ease-out;
 }
 
-section {
+/*section {
   border: 2px double var(--white);
   margin: 1.5em auto;
 }
