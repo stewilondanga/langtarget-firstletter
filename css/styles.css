@@ -73,13 +73,13 @@ section:target {
   transition: .8s ease;
 }
 
-/*section h2 {
+section h2 {
   border-bottom: 1px solid var(--white);
   padding: .5em;
   letter-spacing: .1em;
 }
 
-section p {
+/*section p {
   padding: .3em .5em;
 }
 
