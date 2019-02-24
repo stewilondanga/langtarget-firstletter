@@ -62,12 +62,12 @@ nav ul li a:hover {
   transition: .3s ease-out;
 }
 
-/*section {
+section {
   border: 2px double var(--white);
   margin: 1.5em auto;
 }
 
-section:target {
+/*section:target {
   background-color: var(--golden);
   color: var(--black);
   transition: .8s ease;
