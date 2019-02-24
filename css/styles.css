@@ -83,7 +83,7 @@ section p {
   padding: .3em .5em;
 }
 
-/*section p:lang(ru),
+section p:lang(ru),
 section p:lang(es) {
   border: 1px inset var(--black);
   margin: .8em .5em;
@@ -92,7 +92,7 @@ section p:lang(es) {
   font-style: italic;
 }
 
-section p:lang(ru) {
+/*section p:lang(ru) {
   color: var(--blue);
 }
 
