@@ -119,14 +119,14 @@ section a.btn {
   text-decoration: none;
 }
 
-/*section a.btn:focus,
+section a.btn:focus,
 section a.btn:hover {
   background-color: var(--red);
   color: var(--white);
   transition: .8s ease-out;
 }
 
-footer {
+/*footer {
   margin-top: 5em;
   text-align: center;
 }
