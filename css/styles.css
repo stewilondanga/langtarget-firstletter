@@ -49,13 +49,13 @@ nav ul li {
   padding: .5em;
 }
 
-/*nav ul li a {
+nav ul li a {
   padding: .5em;
   font-size: 1.5em;
   text-decoration: none;
 }
 
-nav ul li a:focus,
+/*nav ul li a:focus,
 nav ul li a:hover {
   outline: 3px solid var(--white);
   color: var(--white);
