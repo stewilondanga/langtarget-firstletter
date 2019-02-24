@@ -27,8 +27,6 @@ body {
   height: 1.5em;
 }
 
-/*
-
 h1 {
   padding: 1em .5em .3em;
   font-size: 3em;
@@ -36,7 +34,7 @@ h1 {
   line-height: 1;
 }
 
-a {
+/*a {
   color: var(--golden);
 }
 
