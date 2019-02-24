@@ -34,11 +34,11 @@ h1 {
   line-height: 1;
 }
 
-/*a {
+a {
   color: var(--golden);
 }
 
-nav ul {
+/*nav ul {
   display: flex;
   flex-direction: column;
   padding: 0 .5em 1em;
