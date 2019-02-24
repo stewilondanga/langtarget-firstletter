@@ -79,11 +79,11 @@ section h2 {
   letter-spacing: .1em;
 }
 
-/*section p {
+section p {
   padding: .3em .5em;
 }
 
-section p:lang(ru),
+/*section p:lang(ru),
 section p:lang(es) {
   border: 1px inset var(--black);
   margin: .8em .5em;
