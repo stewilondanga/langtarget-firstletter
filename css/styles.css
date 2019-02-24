@@ -126,12 +126,12 @@ section a.btn:hover {
   transition: .8s ease-out;
 }
 
-/*footer {
+footer {
   margin-top: 5em;
   text-align: center;
 }
 
-@media (min-width: 50em) {
+/*@media (min-width: 50em) {
   body {
     max-width: 40em;
     margin: .5em auto;
