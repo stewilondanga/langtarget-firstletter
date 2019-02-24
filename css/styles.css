@@ -96,11 +96,11 @@ section p:lang(ru) {
   color: var(--blue);
 }
 
-/*section p:lang(es) {
+section p:lang(es) {
   color: var(--red);
 }
 
-section#three p::first-letter {
+/*section#three p::first-letter {
   font-size: 250%;
   font-weight: bold;
   -webkit-initial-letter: 2;
