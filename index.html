@@ -10,82 +10,83 @@
 <body>
 
   <div class="my_social">
-      <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
-          <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
-        </a>
-      <a href="https://stewilondanga.github.io/" class="social">
-          <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
-        </a>
-      <a href="https://twitter.com/stew_ilondanga" class="social">
-          <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
-        </a>
-    </div>
+    <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
+      <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
+    </a>
+    <a href="https://stewilondanga.github.io/" class="social">
+      <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
+    </a>
+    <a href="https://twitter.com/stew_ilondanga" class="social">
+      <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
+    </a>
+  </div>
 
-    <header>
-      <h1>Some CSS Pseudo Classes</h1>
-    </header>
+  <header>
+    <h1>Some CSS Pseudo Classes</h1>
+  </header>
 
-    <nav aria-label="Table of Contents">
+  <nav aria-label="Table of Contents">
+    <ul>
+      <li><a href="#one">:target</a></li>
+      <li><a href="#two">:lang()</a></li>
+      <li><a href="#three">::first-letter</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="one">
+      <h2>:target</h2>
+      <p>Light up the section your user navigates to via a table of contents. Great for accessibility, as it helps orient your visual users.</p>
+      <p>Go ahead and see it in action by choosing each section from the table of contents!</p>
+      <a class="btn" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:target" target="_blank">:target on MDN &raquo;</a>
+    </section>
+    <section id="two">
+      <h2>:lang()</h2>
+      <p>Is your site using different languages? Style specific languages by targeting them in CSS.</p>
+      <p lang="ru">Сегодня я хотел бы научить вас CSS. Я нахожусь на Аляске, и у меня есть время на моих руках.</p>
+      <p lang="es">Hoy me gustaría enseñarte algo de CSS. Estoy en Alaska, y tengo algo de tiempo en mis manos.</p>
+      <a class="btn" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:lang" target="_blank">:lang on MDN &raquo;</a>
+    </section>
+    <section id="three">
+      <h2>::first-letter</h2>
+      <p>Typography tricks in CSS! Make the first letter of every paragraph stand out.</p>
+      <p>Increase the font size and weight. Or choose a different color to offset it from the rest of the text. The following properties can be used:</p>
       <ul>
-        <li><a href="#one">:target</a></li>
-        <li><a href="#two">:lang()</a></li>
-        <li><a href="#three">::first-letter</a></li>
+        <li>font</li>
+        <li>color</li>
+        <li>background</li>
+        <li>margin</li>
+        <li>padding</li>
+        <li>border</li>
+        <li>text-decoration</li>
+        <li>vertical-align</li>
+        <li>text-transform</li>
+        <li>line-height</li>
+        <li>float</li>
+        <li>clear</li>
+        <li>initial-letters (experimental)</li>
       </ul>
-    </nav>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <a class="btn" href="https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter" target="_blank">::first-letter on MDN &raquo;</a>
+    </section>
+  </main>
 
-    <main>
-      <section id="one">
-        <h2>:target</h2>
-        <p>Light up the section your user navigates to via a table of contents. Great for accessibility, as it helps orient your visual users.</p>
-        <p>Go ahead and see it in action by choosing each section from the table of contents!</p>
-        <a class="btn" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:target" target="_blank">:target on MDN &raquo;</a>
-      </section>
-      <section id="two">
-        <h2>:lang()</h2>
-        <p>Is your site using different languages? Style specific languages by targeting them in CSS.</p>
-        <p lang="ru">Сегодня я хотел бы научить вас CSS. Я нахожусь на Аляске, и у меня есть время на моих руках.</p>
-        <p lang="es">Hoy me gustaría enseñarte algo de CSS. Estoy en Alaska, y tengo algo de tiempo en mis manos.</p>
-        <a class="btn" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:lang" target="_blank">:lang on MDN &raquo;</a>
-      </section>
-      <section id="three">
-        <h2>::first-letter</h2>
-        <p>Typography tricks in CSS! Make the first letter of every paragraph stand out.</p>
-        <p>Increase the font size and weight. Or choose a different color to offset it from the rest of the text. The following properties can be used:</p>
-        <ul>
-          <li>font</li>
-          <li>color</li>
-          <li>background</li>
-          <li>margin</li>
-          <li>padding</li>
-          <li>border</li>
-          <li>text-decoration</li>
-          <li>vertical-align</li>
-          <li>text-transform</li>
-          <li>line-height</li>
-          <li>float</li>
-          <li>clear</li>
-          <li>initial-letters (experimental)</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a class="btn" href="https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter" target="_blank">::first-letter on MDN &raquo;</a>
-      </section>
-    </main>
-
-    <footer>
-      <p>Penned with 💛 by a CSS finatic</p>
-    </footer>
+  <footer>
+    <p>Penned with 💛 by a CSS finatic</p>
+  </footer>
 
   <section id="contact">
     <div class="overlay">
       <div class="containers">
 
         <h1>
-<script>
-with(new Date)c=-new Date(y=getFullYear(),m=getMonth()).getDay(x=new Date(y,++m,0).getDate(b=-1))
-h='<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 '+' '+y+'/'+m+'<tr>'+'SuMoTuWeThFrSa'.replace(/(..)/g,'<th>$1')
-while((b++>5?b=0:b)|c<x)h+=(b?'':'<tr>')+'<td>'+(++c<1|c>x?'-':c);document.write(h+'</table>')
-</script>
-</h1>
+          <script>
+            with(new Date) c = -new Date(y = getFullYear(), m = getMonth()).getDay(x = new Date(y, ++m, 0).getDate(b = -1))
+            h = '<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 ' + ' ' + y + '/' + m + '<tr>' + 'SuMoTuWeThFrSa'.replace(/(..)/g, '<th>$1')
+            while ((b++ > 5 ? b = 0 : b) | c < x) h += (b ? '' : '<tr>') + '<td>' + (++c < 1 | c > x ? '-' : c);
+            document.write(h + '</table>')
+          </script>
+        </h1>
 
       </div>
     </div>
