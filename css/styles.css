@@ -131,24 +131,27 @@ footer {
   text-align: center;
 }
 
-/*@media (min-width: 50em) {
+@media (min-width: 50em) {
   body {
     max-width: 40em;
     margin: .5em auto;
   }
+
   nav ul {
     flex-direction: row;
     justify-content: space-around;
   }
+
   nav ul li a {
     outline: 3px solid var(--golden);
   }
+
   section ul {
     column-count: 2;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
