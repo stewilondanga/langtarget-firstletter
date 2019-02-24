@@ -100,7 +100,7 @@ section p:lang(es) {
   color: var(--red);
 }
 
-/*section#three p::first-letter {
+section#three p::first-letter {
   font-size: 250%;
   font-weight: bold;
   -webkit-initial-letter: 2;
@@ -108,7 +108,7 @@ section p:lang(es) {
   letter-spacing: .1em;
 }
 
-section a.btn {
+/*section a.btn {
   display: block;
   padding: .8em;
   background-color: var(--golden);
