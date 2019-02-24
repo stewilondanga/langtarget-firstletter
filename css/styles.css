@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -24,7 +24,7 @@ body {
 :root {
   --golden: gold;
   --white: #f7f7f7;
-  --black: #333;
+  --black: #327;
   --red: #CD1028;
   --blue: #073BA5;
 }
